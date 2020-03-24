@@ -3,7 +3,7 @@
 /*--------------------------------------Colours */
 
 .bg-color-name-title{
-    background-color: #f5f5f5;
+    background-color: #f6f6f6;
 }
 
 .ui-menu-color-home{
@@ -35,6 +35,9 @@ background-color: #525252
 }
 .bg-color-content{
     background-color: #943030;
+}
+.bg-color-contact{
+    background-color: #fff;
 }
 /*--------------------------------------Special paddigns/Margings/Text */
 h1,h2,h3,h4,h5 {
@@ -156,7 +159,9 @@ footer{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out; 
  }  
-
+.pos-fixed{
+    position: fixed;
+}
 /*--------------------------------------Section */
 
 .period-item{
@@ -200,4 +205,10 @@ footer{
 }
 a:hover {
   background-color: rgb(120, 148, 196);
+}
+/*--------------------------------------Contact Form  */
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
