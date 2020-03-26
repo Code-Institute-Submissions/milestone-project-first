@@ -16,8 +16,6 @@
 }
 .ui-menu-color-baroque{
     background-color: #38361e;
-
-
 }
 .ui-menu-color-classical{
 background-color: #525252
@@ -37,7 +35,7 @@ background-color: #525252
     background-color: #943030;
 }
 .bg-color-contact{
-    background-color: #fff;
+    background-color:#fff;
 }
 /*--------------------------------------Special paddigns/Margings/Text */
 h1,h2,h3,h4,h5 {
@@ -61,7 +59,12 @@ h1,h2,h3,h4,h5 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
 /*--------------------------------------Heading */
+
+.mobile-container{
+    display: none;
+}
 
 .header{
     margin:0;
@@ -211,4 +214,63 @@ a:hover {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+/*--------------------------------------Media Queries  */
+@media(max-width:600px){
+    /* Style the navigation menu */
+
+    .desktop-view{
+        display: none;
+    }
+   /* body {
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+.mobile-container {
+  display: initial;
+  max-width: 480px;
+  margin: auto;
+  background-color:#555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+  font-family: "Exo",sans-serif;
+  }
+
+.topnav {
+  overflow: hidden;
+  background-color:#333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #9c3a3a;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #fafafa;
+  color: #9c3a3a;
+}
+
+.active {
+  background-color: #fafafa;
+    color:#9c3a3a;
+}
+
 }
