@@ -30,20 +30,29 @@
 
 .section-column{
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 30px 35px;
     float: none;
-}
+    margin:0;
+    }
+
 .section-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+}
+.section-heading-timeline{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 35px;
+
 }
 
 .timeline-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 .uppercase{
@@ -55,6 +64,23 @@
     margin-bottom: 10px;
 
 }
+
+.section-core{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
+.section-box{
+    margin-bottom: 20px;
+}
+.form-label{
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 /*--------------------------------------Heading */
 
 .mobile-container{
@@ -166,6 +192,7 @@ footer{
 .pos-fixed{
     position: fixed;
 }
+
 /*--------------------------------------Section */
 
 .period-item{
@@ -207,10 +234,11 @@ footer{
     content: '';
     background: #b14747;
 }
-a:hover {
+.wiki:hover {
   background-color: rgb(120, 148, 196);
 }
 /*--------------------------------------Contact Form  */
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
@@ -223,23 +251,24 @@ a:hover {
 }
 
 .form-control{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 
 }
 
-
 /*--------------------------------------Media Queries  */
+
 @media(max-width:600px){
+
     /* Style the navigation menu */
 
     .desktop-view{
         display: none;
     }
-   /* body {
-  font-family: Arial, Helvetica, sans-serif;
-}*/
-
+  
 .mobile-container {
   display: initial;
   max-width: 480px;
