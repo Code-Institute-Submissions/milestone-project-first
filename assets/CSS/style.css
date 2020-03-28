@@ -3,44 +3,30 @@
 /*--------------------------------------Colours */
 
 .bg-color-name-title{
-    background-color: #f6f6f6;
+    background-color: #e6e6e6;
 }
 
 .ui-menu-color-home{
     background-color: #e67e22;
 
 }
-.ui-menu-color-renaissance{
+.ui-menu-color-timeline{
     background-color: #966a0b;
 
 }
 .ui-menu-color-baroque{
     background-color: #38361e;
 }
-.ui-menu-color-classical{
-background-color: #525252
-}
-.ui-menu-color-romantic{
-    background-color: #8d5151
-
-}
-.ui-menu-color-century{
-    background-color: #523335
-    
-}
+  
 .bg-color-timeline-genres{
-    background-color: #fafafa;
+    background-color: #f6f6f6;
 }
-.bg-color-content{
-    background-color: #943030;
-}
+
 .bg-color-contact{
     background-color:#fff;
 }
+
 /*--------------------------------------Special paddigns/Margings/Text */
-h1,h2,h3,h4,h5 {
-    margin: 0;
-} 
 
 .section-column{
     display: table-cell;
@@ -50,16 +36,25 @@ h1,h2,h3,h4,h5 {
 .section-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
+
 .timeline-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
+.uppercase{
+    text-transform: uppercase;
+}
 
+.contact-heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 /*--------------------------------------Heading */
 
 .mobile-container{
@@ -120,7 +115,7 @@ h1,h2,h3,h4,h5 {
 .menuperiod a{
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: rgb(70, 72, 92);
     height: 80px;
 }
 
@@ -140,11 +135,17 @@ h1,h2,h3,h4,h5 {
 /*--------------------------------------Footer */
 
 footer{
-    background-color: #f5f5f5;
-    min-height: 80px;
-    margin: 0;
+    background-color: #e6e6e6;
+    min-height: 100px;
+    margin: 0px;
     }
   
+  .footer-box{
+      margin: 0;
+      background-color: #e6e6e6;
+      padding-top: 15px;
+      padding-bottom: 5px;
+  }
 
 
  .social-links li a i {
@@ -214,7 +215,20 @@ a:hover {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    
 }
+.text-center{
+    margin-bottom: 20px;
+    margin-top:20px
+}
+
+.form-control{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
 /*--------------------------------------Media Queries  */
 @media(max-width:600px){
     /* Style the navigation menu */
